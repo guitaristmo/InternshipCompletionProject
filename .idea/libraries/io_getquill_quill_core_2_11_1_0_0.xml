@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="io.getquill:quill-core_2.11:1.0.0" type="repository">
+    <properties maven-id="io.getquill:quill-core_2.11:1.0.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/getquill/quill-core_2.11/1.0.0/quill-core_2.11-1.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalamacros/resetallattrs_2.11/1.0.0/resetallattrs_2.11-1.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.3.0/config-1.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/scala-logging/scala-logging_2.11/3.4.0/scala-logging_2.11-3.4.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

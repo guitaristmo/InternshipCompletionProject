@@ -2,9 +2,6 @@ import io.getquill.QuillSparkContext._
 import org.apache.spark.sql.SparkSession
 
 class PersonFetcher {
-  case class Language(name: String, dialect: String) extends Embedded
-  case class Country(countryCode: String, language: Language)
-  case class City(countryCode: String, name: String)
 
   implicit lazy val sqlContext =
     SparkSession.builder().master("local").appName("spark test").getOrCreate().sqlContext
