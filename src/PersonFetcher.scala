@@ -12,11 +12,13 @@ class PersonFetcher {
   case class Job(id: Int, title: String)
   case class JobDoer(jobTitle: String, employee: String)
 
+  //employee table
   val employees = sqlContext.createDataset(Seq(
     Employee(0, "John", "Goldman"),
     Employee(1, "Sam", "GreenBerger"),
     Employee(2, "Simon", "Blumenthal")
   ))
+  //jobs table
   val jobs = sqlContext.createDataset(Seq(
     Job(111, "Rebbi"),
     Job(222, "Administrator"),
@@ -29,6 +31,7 @@ class PersonFetcher {
     EmployeeJobs(2, 222)
   ))
 
+  //query that produces table of JobDoer Objects
   val jobWorkers = run{
     liftQuery(employees)
       .join(liftQuery(employeeJobs))
